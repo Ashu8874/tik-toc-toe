@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(to right, #0099f7, #f11712);
+    text-align:center ;
+    
+}
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+    
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius:1rem ;
+    box-shadow:blue;
+    opacity: 0.5rem;
+    border: none;
+    font-size: 8vmin;
+    background-color: blanchedalmond;
+    color: rgb(194, 54, 54);
+    box-shadow: 10px 10px 5px rgb(229, 100, 40);
+}
+h1{
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+    color: rgb(235, 14, 18);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+#reset{
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    background-color:rgb(18, 15, 15);
+    color: #fff;
+    border-radius: 1rem;
+
+}
+.mssgcontainer{
+    font-size:50px;
+    color: bisque;
+    padding: 3vmin;
+}
+.hide{
+    display: none;
+}
